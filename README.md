@@ -15,6 +15,7 @@ CouponEncoder()
 Initialize this object with a key made with the characters 'ABCDEFGHJKMNPQRSTWVXYZ0123456789' in random order.
 
 Example:
+
       >>> c = CouponEncoder('10BEH8G426RADWZVF9JPKX5QMC3YTN7S')
       >>> c.encode(15171013)
       'FS19E'
