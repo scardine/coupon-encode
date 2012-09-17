@@ -15,15 +15,15 @@ CouponEncoder()
 Initialize this object with a key made with the characters 'ABCDEFGHJKMNPQRSTWVXYZ0123456789' in random order.
 
 Example:
-    >>> c = CouponEncoder('10BEH8G426RADWZVF9JPKX5QMC3YTN7S')
-    >>> c.encode(15171013)
-    'FS19E'
-    >>> c.decode('FS19E')
-    15171013
-    >>> code, check = c.encode_with_verification(1234)
-    ('NH4RZ', '782AV')
-    >>> c.is_valid(code, check)
-    True
-    >>> c.is_valid(code, '782AA')
-    False
+      >>> c = CouponEncoder('10BEH8G426RADWZVF9JPKX5QMC3YTN7S')
+      >>> c.encode(15171013)
+      'FS19E'
+      >>> c.decode('FS19E')
+      15171013
+      >>> code, check = c.encode_with_verification(1234)
+      ('NH4RZ', '782AV')
+      >>> c.is_valid(code, check)
+      True
+      >>> c.is_valid(code, '782AA')
+      False
     
